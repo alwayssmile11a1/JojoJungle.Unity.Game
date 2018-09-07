@@ -81,6 +81,7 @@ public class Line : MonoBehaviour {
         {
             RendereredLine.positionCount++;
             RendereredLine.SetPosition(0, position);
+            m_colliderPoints.Add(position);
         }
         else
         {

@@ -38,7 +38,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1874231397515664}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.681, y: -3.54, z: 0}
+  m_LocalPosition: {x: -7.26, y: -3.54, z: 0}
   m_LocalScale: {x: 0.4, y: 0.4, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -109,9 +109,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
-  groundedLayer:
+  hangingCheckLayer:
     serializedVersion: 2
-    m_Bits: 1
+    m_Bits: 512
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 256
   castDistance: 0.2
 --- !u!212 &212353051877486964
 SpriteRenderer:
