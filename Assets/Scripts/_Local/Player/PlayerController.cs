@@ -23,7 +23,8 @@ public class PlayerController : MonoBehaviour
         m_CapsuleCollider2D = GetComponent<CapsuleCollider2D>();
 
         m_ContactFilter2D.useTriggers = false;
-        m_ContactFilter2D.layerMask = groundedLayer.value;
+        m_ContactFilter2D.useLayerMask = true;
+        m_ContactFilter2D.layerMask = groundedLayer;
         Physics2D.queriesStartInColliders = false;
     }
 
@@ -48,14 +49,12 @@ public class PlayerController : MonoBehaviour
         if (hitCount > 0)
         {
             transform.rotation = Quaternion.Slerp(transform.rotation,QuaternionExtension.RotateToDirection(m_HitResults[0].normal, -90), 5f *Time.deltaTime);
-           
+            Debug.Log(m_HitResults[0].point);
         }
         else
         {
             transform.rotation = Quaternion.Slerp(transform.rotation, QuaternionExtension.RotateToDirection(Vector3.down, 90), 5f * Time.deltaTime);
         }
-
-
 
     }
 

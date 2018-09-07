@@ -1486,7 +1486,7 @@ Transform:
   - {fileID: 1249359071}
   - {fileID: 1245193250}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &601000932
 GameObject:
@@ -1855,50 +1855,12 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4900290597508342, guid: 76fd8fb06c3541b4da224d8835ca973e, type: 2}
       propertyPath: m_RootOrder
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 4900290597508342, guid: 76fd8fb06c3541b4da224d8835ca973e, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 0.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 4900290597508342, guid: 76fd8fb06c3541b4da224d8835ca973e, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 0.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 50538590119323308, guid: 76fd8fb06c3541b4da224d8835ca973e,
-        type: 2}
-      propertyPath: m_Constraints
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 70283884492035888, guid: 76fd8fb06c3541b4da224d8835ca973e,
-        type: 2}
-      propertyPath: m_Offset.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 70283884492035888, guid: 76fd8fb06c3541b4da224d8835ca973e,
-        type: 2}
-      propertyPath: m_Offset.y
-      value: -0.2321288
-      objectReference: {fileID: 0}
-    - target: {fileID: 70283884492035888, guid: 76fd8fb06c3541b4da224d8835ca973e,
-        type: 2}
-      propertyPath: m_Size.y
-      value: 2.3836331
-      objectReference: {fileID: 0}
-    - target: {fileID: 70283884492035888, guid: 76fd8fb06c3541b4da224d8835ca973e,
-        type: 2}
-      propertyPath: m_Size.x
-      value: 1.5090705
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 114688286480094454, guid: 76fd8fb06c3541b4da224d8835ca973e,
         type: 2}
-      propertyPath: speed
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 212353051877486964, guid: 76fd8fb06c3541b4da224d8835ca973e,
-        type: 2}
-      propertyPath: m_SortingOrder
-      value: 10
+      propertyPath: groundedLayer.m_Bits
+      value: 256
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76fd8fb06c3541b4da224d8835ca973e, type: 2}

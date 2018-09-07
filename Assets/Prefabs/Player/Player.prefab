@@ -38,8 +38,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1874231397515664}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -7.681, y: -3.54, z: 0}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -63,7 +63,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!70 &70283884492035888
 CapsuleCollider2D:
   m_ObjectHideFlags: 1
@@ -76,8 +76,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.025, y: -0.05}
-  m_Size: {x: 0.6063475, y: 1.0057931}
+  m_Offset: {x: 0, y: -0.2321288}
+  m_Size: {x: 1.5090705, y: 2.3836331}
   m_Direction: 0
 --- !u!95 &95097583244847060
 Animator:
@@ -108,14 +108,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 149e0b5cf7191224ebd2b7aad4594b9b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  score:
-    UseConstant: 1
-    ConstantValue: 0
-    Variable: {fileID: 0}
-  speed: 5
+  speed: 3
   groundedLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 1
   castDistance: 0.2
 --- !u!212 &212353051877486964
 SpriteRenderer:
@@ -151,7 +147,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: 38acb8dbc6f8c0b4b9a4780f5ec74433, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
