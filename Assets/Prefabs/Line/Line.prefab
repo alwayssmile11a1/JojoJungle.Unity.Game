@@ -90,7 +90,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lineTypeAfterDrawing: 2
-  maxLinePointCount: 2
+  maxLinePointCount: -1
   distanceBetweenLinePosition: 0.1
 --- !u!120 &120060523909648802
 LineRenderer:
